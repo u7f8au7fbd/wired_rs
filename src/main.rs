@@ -8,7 +8,8 @@ use std::time::{Duration, Instant};
 
 type PeerMap = Arc<Mutex<HashMap<String, TcpStream>>>;
 
-const SUPER_NODE_ADDR: &str = "192.168.50.128:2501";
+//最初のスーパーノードのアドレスを設定
+const SUPER_NODE_ADDR: &str = "";
 const HEARTBEAT_INTERVAL: Duration = Duration::from_secs(10);
 const HEARTBEAT_TIMEOUT: Duration = Duration::from_secs(20); // 2サイクル分
 

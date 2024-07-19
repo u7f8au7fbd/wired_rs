@@ -1,0 +1,9 @@
+[package]
+name = "wired_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "*", features = ["full"] }
+local-ip-address = "*"
+reqwest = { version = "*" }

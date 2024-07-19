@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "'wired_rs'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=wired_rs",
+                    "--package=wired_rs"
+                ],
+            },
+            "cwd": "${workspaceFolder}"
+        },
+    ]
+}
